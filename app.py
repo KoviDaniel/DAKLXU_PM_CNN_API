@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 # Betöltjük a mentett modellt
 #model = load_model('C:\CNN_model\model.h5')
-model = load_model('C:\CNN_model\KDmodel3.h5')
+model = load_model('KDmodel3.h5')
 
 classes = ['Acer_campestre','Acer_platanoides','Acer_tataricum',
            'Alnus_glutinosa', 'Alnus_incana', 'Betula_pendula',
